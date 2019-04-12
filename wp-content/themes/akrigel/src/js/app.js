@@ -163,7 +163,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var target = L.latLng('50.44937', '30.52577');
+var target = L.latLng('47.8376506', '35.1425166');
 
 map.setView(target, 14);
 

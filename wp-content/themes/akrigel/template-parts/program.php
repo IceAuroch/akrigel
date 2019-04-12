@@ -45,9 +45,9 @@ if ($program->have_posts()):
         <div class="col-sm-8 mt-3 mt-sm-0">
             <div class="d-flex align-items-center">
                 <div class="program-footer__text mr-2 mr-xl-3 text-white">
-                    Стоимость семинара составляет <?= get_post_meta('51', 'price', true); ?> + Ваша СКИДКА.<br>
-                    Количество мест ограничено.<br>
-                    Приходите, мы ждем именно Вас!!!
+                    <?php while ($program->have_posts()): $program->the_post(); ?>
+                        <?php echo get_field('seminar_descrip'); ?>
+                    <?php endwhile; ?>
                 </div>
 
             </div>

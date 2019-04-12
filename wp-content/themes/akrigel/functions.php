@@ -72,7 +72,19 @@ function theme_customize_register($wp_customize)
     $wp_customize->add_setting('phone1');
     $wp_customize->add_control('phone1', [
         'section' => 'contacts',
-        'label' => 'Телефон',
+        'label' => 'Телефон 1',
+        'type' => 'text',
+    ]);
+    $wp_customize->add_setting('phone2');
+    $wp_customize->add_control('phone2', [
+        'section' => 'contacts',
+        'label' => 'Телефон 2',
+        'type' => 'text',
+    ]);
+    $wp_customize->add_setting('phone3');
+    $wp_customize->add_control('phone3', [
+        'section' => 'contacts',
+        'label' => 'Телефон 3',
         'type' => 'text',
     ]);
     $wp_customize->add_setting('place');
