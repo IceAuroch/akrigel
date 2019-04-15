@@ -21,6 +21,7 @@
     @extend %img;
     max-height: 440px;
 
+
     @media (max-width: map_get($grid-breakpoints, sm)) {
         position: relative;
         left: 0;

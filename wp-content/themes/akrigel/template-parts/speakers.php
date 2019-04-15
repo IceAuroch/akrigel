@@ -11,10 +11,10 @@ if ($speakers->have_posts()):
         <div class="row mb-5">
             <div class="col-12">
                 <h2 class="section-title section-title--right">
-                    Наши спикеры
+                    <?= get_the_title(78); ?>
                 </h2>
                 <h1 class="section-subtitle">
-                    Наши спикеры
+                    <?= get_the_title(78); ?>
                 </h1>
             </div>
         </div>
