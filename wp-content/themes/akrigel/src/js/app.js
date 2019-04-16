@@ -166,6 +166,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 var target = L.latLng('47.8376506', '35.1425166');
 
 map.setView(target, 14);
+map.scrollWheelZoom.disable();
 
 L.marker(target, {icon: logoIcon}).addTo(map);
 
