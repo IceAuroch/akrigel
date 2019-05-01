@@ -23,7 +23,7 @@
 
 
                 <div class="intro-description">
-                    <div class="intro-description-item d-flex align-items-center mb-3">
+                    <div class="intro-description-item d-flex align-items-xl-center mb-3 flex-column flex-xl-row">
                         <div class="title mr-3">Дата проведения:
                             <span class="text">
                                 <?= get_post_meta(18, 'conf_date', true); ?>
