@@ -28,6 +28,26 @@
     })(document, window, 'script');
     </script>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '453412928748798'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=453412928748798&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 
 </head>
 
@@ -51,6 +71,23 @@
         <path d="M2.92969 17.6172H17.0703C18.6858 17.6172 20 16.3029 20 14.6875V5.3125C20 3.69705 18.6858 2.38281 17.0703 2.38281H2.92969C1.31424 2.38281 0 3.69705 0 5.3125V14.6875C0 16.3029 1.31424 17.6172 2.92969 17.6172ZM1.17188 5.3125C1.17188 4.34326 1.96045 3.55469 2.92969 3.55469H17.0703C18.0396 3.55469 18.8281 4.34326 18.8281 5.3125V14.6875C18.8281 15.6567 18.0396 16.4453 17.0703 16.4453H2.92969C1.96045 16.4453 1.17188 15.6567 1.17188 14.6875V5.3125Z"/>
         <path d="M7.07031 6.07452V14.0393L14.1211 9.99161L7.07031 6.07452ZM8.24219 8.0661L11.7383 10.0084L8.24219 12.0154V8.0661Z"/>
     </symbol>  
+
+    <symbol id="left-icon" viewBox="0 0 8 12">
+        <path d="M7.3999 10.6L5.9999 12L-9.72271e-05 6L5.9999 -1.22392e-07L7.3999 1.4L2.7999 6L7.3999 10.6Z" />
+    </symbol>
+
+    <symbol id="right-icon" width="8" height="12" viewBox="0 0 8 12">
+        <path d="M0 1.4L1.4 0L7.4 6L1.4 12L0 10.6L4.6 6L0 1.4Z"/>
+    </symbol>
+
+    <symbol id="facebook-icon" viewBox="0 0 30 30">
+        <path d="M27.9311 30H2.06895C0.931055 30 0 29.0689 0 27.9311V2.06895C0 0.931055 0.931055 0 2.06895 0H27.9311C29.0689 0 30 0.931055 30 2.06895V27.9311C30 29.0689 29.0689 30 27.9311 30Z" fill="#4D6FA9"/>
+        <path d="M25.3448 5.17242V10.3448H20.6897C20.1207 10.3448 19.6552 10.8104 19.6552 11.3793V14.4828H24.8276V19.6552H19.6552V30H14.4828V19.6552H10.3448V14.4827H14.4828V11.3793C14.4828 8.12062 16.9655 5.431 20.1724 5.17236H25.3448V5.17242Z" fill="white"/>
+    </symbol>
+
+    <symbol id="star-icon" viewBox="0 0 20 19">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.18 19L14.545 11.971L20 7.244L12.809 6.627L10 0L7.191 6.627L0 7.244L5.455 11.971L3.82 19L10 15.272L16.18 19Z" fill="#EEB066"/>
+    </symbol>
         
 </svg>
 
