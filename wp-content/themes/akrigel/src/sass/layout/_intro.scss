@@ -61,9 +61,13 @@
         }
 
         .text {
-            margin-left: 15px;
             font-family: 'FuturaDemiC', sans-serif;
             color: #fff;
+            display: block;
+            @media (min-width: map_get($grid-breakpoints, lg)) {
+                margin-left: 15px;
+                display: initial;
+            }
         }
     }
 
