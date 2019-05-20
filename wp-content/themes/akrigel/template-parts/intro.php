@@ -2,12 +2,12 @@
 <style>
 
     #intro {
-        background: url("<?= get_field('img_for_mobile' , 17); ?>") 50% 100% / cover no-repeat;
+        background: url("<?= get_field('img_for_mobile' , 18); ?>") 50% 100% / cover no-repeat;
     }
 
     @media (min-width: 570px) {
         #intro {
-            background: url('<?= get_the_post_thumbnail_url(17); ?>') 50% 50% / cover no-repeat;
+            background: url('<?= get_the_post_thumbnail_url(18); ?>') 50% 50% / cover no-repeat;
         }
     }
 
