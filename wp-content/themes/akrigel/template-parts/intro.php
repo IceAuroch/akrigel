@@ -1,4 +1,21 @@
-    <!-- Intro -->
+    
+<style>
+
+    #intro {
+        background: url("<?= get_field('img_for_mobile' , 17); ?>") 50% 100% / cover no-repeat;
+    }
+
+    @media (min-width: 570px) {
+        #intro {
+            background: url('<?= get_the_post_thumbnail_url(17); ?>') 50% 50% / cover no-repeat;
+        }
+    }
+
+</style>
+    
+    
+    
+<!-- Intro -->
 <section id="intro">
     <div class="container h-100 position-relative">
         <div class="row h-100">
