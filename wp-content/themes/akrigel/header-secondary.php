@@ -138,6 +138,7 @@
                 <li><a href="<?php echo site_url(); ?>#speakers">Наши спикеры</a></li>
                 <li><a href="<?php echo site_url(); ?>#singup">Записаться</a></li>
                 <li><a href="<?php echo site_url(); ?>#contacts">Контакты</a></li>
+                <li><a href="<?php echo site_url(); ?>#download-list">Чек-лист по укреплению акригелем</a></li>
             </ul>
         </nav>
     </header>
