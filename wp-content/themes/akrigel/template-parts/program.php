@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col text-center">
                 <a href="#" class="btn btn-outline-primary download-list">
-                    Скачать чек-лист "Пошаговый алгоритм педикюра"
+                    Скачать чек-лист "Укрепление ногтевой пластины акригелем"
                 </a>
             </div>
         </div>
