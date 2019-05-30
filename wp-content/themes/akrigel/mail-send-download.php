@@ -26,5 +26,5 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$headers = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 	mail($to, $subject, $message, $headers);
-	header('Location: /check-list/Chek_list_Ukreplenie_nogtevoj_plastiny.docx');
+	header('Location: /check-list/chek_list_ukreplenie_nogtevoj_plastiny.docx');
 }
